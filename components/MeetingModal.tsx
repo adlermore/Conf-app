@@ -44,6 +44,10 @@ const MeetingModal = ({
           <h1 className={cn("text-3xl font-bold leading-[42px]", className)}>
             {title}
           </h1>
+          <div className="flex item-center justify-center ">
+            <div className="flex-1">{title}</div>
+            <div className="flex-1">{}</div>
+          </div>
           {children}
           <Button
             className={
